@@ -1,0 +1,25 @@
+{
+  "name": "shell",
+  "version": "0.0.0",
+  "author": "morten <938091+mortefos@users.noreply.github.com>",
+  "homepage": "https://github.com/mortefos/automatic-pancake#readme",
+  "license": "MIT",
+  "main": "lib/shell.js",
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mortefos/automatic-pancake.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/mortefos/automatic-pancake/issues"
+  },
+  "devDependencies": {
+    "electron": "^8.2.3"
+  }
+}
