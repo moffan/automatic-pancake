@@ -6,6 +6,10 @@
   "repository": "git@github.com:mortefos/automatic-pancake.git",
   "author": "morten <938091+mortefos@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "lint": "yarn eslint ./packages --ext .ts,.tsx"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "2.29.0",
     "@typescript-eslint/parser": "2.29.0",

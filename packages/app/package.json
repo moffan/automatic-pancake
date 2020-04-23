@@ -9,6 +9,7 @@
     "serve:web": "webpack-dev-server --env.target web"
   },
   "dependencies": {
+    "@moffan/components": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

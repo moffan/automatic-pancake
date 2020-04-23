@@ -2,9 +2,8 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["DOM", "ESNext"],
     "isolatedModules": true,
-    "jsx": "react",
+    "lib": ["DOM", "ESNext"],
     "module": "CommonJS",
     "sourceMap": true,
     "strict": true,
