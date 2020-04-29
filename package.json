@@ -7,6 +7,9 @@
   "author": "morten <938091+mortefos@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna clean",
+    "clean:build": "rimraf ./packages/**/*.js ./packages/**/*.map",
     "bootstrap": "lerna bootstrap",
     "lint": "yarn eslint ./packages --ext .ts,.tsx"
   },
@@ -21,6 +24,7 @@
     "eslint-plugin-simple-import-sort": "5.0.2",
     "lerna": "^3.20.2",
     "prettier": "2.0.5",
+    "rimraf": "^3.0.2",
     "typescript": "3.8.3"
   },
   "workspaces": [
