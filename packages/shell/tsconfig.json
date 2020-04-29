@@ -1,14 +1,7 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "lib": ["DOM", "ESNext"],
-    "module": "CommonJS",
-    "sourceMap": true,
-    "strict": true,
     "outDir": "../../.lib",
-    "skipLibCheck": true, // until electron fixed its d.ts
-    "target": "ES2017"
+    "skipLibCheck": true // until electron fixed its d.ts
   }
 }
