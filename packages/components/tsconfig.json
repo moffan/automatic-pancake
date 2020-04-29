@@ -1,16 +1,10 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "lib": ["DOM", "ESNext"],
-    "isolatedModules": true,
     "jsx": "react",
-    "module": "CommonJS",
-    "outDir": ".lib",
-    "sourceMap": true,
-    "strict": true,
-    "target": "ES2017"
+    "outDir": ".lib"
   }
 }
